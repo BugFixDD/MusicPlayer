@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1592DBE520983A5A00357C96 /* CALayer-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1592DBE420983A5A00357C96 /* CALayer-Extension.swift */; };
+		1592DBE720983E0000357C96 /* BFMusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1592DBE620983E0000357C96 /* BFMusicPlayer.swift */; };
+		1592DBE92098462300357C96 /* BFLyricModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1592DBE82098462300357C96 /* BFLyricModel.swift */; };
+		1592DBEB209848AB00357C96 /* String+HandleLyric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1592DBEA209848AB00357C96 /* String+HandleLyric.swift */; };
+		1592DBED2098579800357C96 /* BFMusicLyricScrollerVw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1592DBEC2098579800357C96 /* BFMusicLyricScrollerVw.swift */; };
+		15A7BC922097FAA7001034DF /* BFSongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A7BC912097FAA7001034DF /* BFSongModel.swift */; };
+		15A7BC952097FB83001034DF /* BFSongsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A7BC942097FB83001034DF /* BFSongsViewModel.swift */; };
+		15A7BC972097FE70001034DF /* BFSingleSongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A7BC962097FE70001034DF /* BFSingleSongViewModel.swift */; };
+		15DFDFEA20972E810088A41C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DFDFE920972E810088A41C /* AppDelegate.swift */; };
+		15DFDFF120972E810088A41C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DFDFF020972E810088A41C /* Assets.xcassets */; };
+		15DFDFF420972E810088A41C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DFDFF220972E810088A41C /* LaunchScreen.storyboard */; };
+		15DFDFFF20972E810088A41C /* QQMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DFDFFE20972E810088A41C /* QQMusicTests.swift */; };
+		15DFE00A20972E810088A41C /* QQMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DFE00920972E810088A41C /* QQMusicUITests.swift */; };
+		15DFE04920972FD90088A41C /* bb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE01920972FD90088A41C /* bb@2x.jpg */; };
+		15DFE04A20972FD90088A41C /* bb_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE01A20972FD90088A41C /* bb_icon@2x.jpg */; };
+		15DFE04B20972FD90088A41C /* dzq@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE01B20972FD90088A41C /* dzq@2x.jpg */; };
+		15DFE04C20972FD90088A41C /* dzq_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE01C20972FD90088A41C /* dzq_icon@2x.jpg */; };
+		15DFE04D20972FD90088A41C /* eason@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE01D20972FD90088A41C /* eason@2x.jpg */; };
+		15DFE04E20972FD90088A41C /* eason_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE01E20972FD90088A41C /* eason_icon@2x.jpg */; };
+		15DFE04F20972FD90088A41C /* jay@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE01F20972FD90088A41C /* jay@2x.jpg */; };
+		15DFE05020972FD90088A41C /* jay_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE02020972FD90088A41C /* jay_icon@2x.png */; };
+		15DFE05120972FD90088A41C /* jj@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE02120972FD90088A41C /* jj@2x.jpg */; };
+		15DFE05220972FD90088A41C /* jj_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE02220972FD90088A41C /* jj_icon@2x.png */; };
+		15DFE05320972FD90088A41C /* kzxd@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE02320972FD90088A41C /* kzxd@2x.jpg */; };
+		15DFE05420972FD90088A41C /* kzxd_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE02420972FD90088A41C /* kzxd_icon@2x.jpg */; };
+		15DFE05520972FD90088A41C /* lkq@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE02520972FD90088A41C /* lkq@2x.jpg */; };
+		15DFE05620972FD90088A41C /* lkq_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE02620972FD90088A41C /* lkq_icon@2x.jpg */; };
+		15DFE05720972FD90088A41C /* nanquan@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE02720972FD90088A41C /* nanquan@2x.jpg */; };
+		15DFE05820972FD90088A41C /* nanquan_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE02820972FD90088A41C /* nanquan_icon@2x.jpg */; };
+		15DFE05920972FD90088A41C /* wf@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE02920972FD90088A41C /* wf@2x.jpg */; };
+		15DFE05A20972FD90088A41C /* wf_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE02A20972FD90088A41C /* wf_icon@2x.jpg */; };
+		15DFE05B20972FD90088A41C /* zxy@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE02B20972FD90088A41C /* zxy@2x.jpg */; };
+		15DFE05C20972FD90088A41C /* zxy_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE02C20972FD90088A41C /* zxy_icon@2x.jpg */; };
+		15DFE05D20972FD90088A41C /* 10405520.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE02E20972FD90088A41C /* 10405520.lrc */; };
+		15DFE05E20972FD90088A41C /* 10736444.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE02F20972FD90088A41C /* 10736444.lrc */; };
+		15DFE05F20972FD90088A41C /* 120125029.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE03020972FD90088A41C /* 120125029.lrc */; };
+		15DFE06020972FD90088A41C /* 12309111.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE03120972FD90088A41C /* 12309111.lrc */; };
+		15DFE06120972FD90088A41C /* 14945107.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE03220972FD90088A41C /* 14945107.lrc */; };
+		15DFE06220972FD90088A41C /* 235319.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE03320972FD90088A41C /* 235319.lrc */; };
+		15DFE06320972FD90088A41C /* 255319.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE03420972FD90088A41C /* 255319.lrc */; };
+		15DFE06420972FD90088A41C /* 309769.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE03520972FD90088A41C /* 309769.lrc */; };
+		15DFE06520972FD90088A41C /* 339744.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE03620972FD90088A41C /* 339744.lrc */; };
+		15DFE06620972FD90088A41C /* 月半小夜曲.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE03720972FD90088A41C /* 月半小夜曲.lrc */; };
+		15DFE06720972FD90088A41C /* 10405520.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE03920972FD90088A41C /* 10405520.mp3 */; };
+		15DFE06820972FD90088A41C /* 10736444.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE03A20972FD90088A41C /* 10736444.mp3 */; };
+		15DFE06920972FD90088A41C /* 1201111234.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE03B20972FD90088A41C /* 1201111234.mp3 */; };
+		15DFE06A20972FD90088A41C /* 120125029.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE03C20972FD90088A41C /* 120125029.mp3 */; };
+		15DFE06B20972FD90088A41C /* 12309111.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE03D20972FD90088A41C /* 12309111.mp3 */; };
+		15DFE06C20972FD90088A41C /* 14945107.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE03E20972FD90088A41C /* 14945107.mp3 */; };
+		15DFE06D20972FD90088A41C /* 235319.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE03F20972FD90088A41C /* 235319.mp3 */; };
+		15DFE06E20972FD90088A41C /* 255319.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE04020972FD90088A41C /* 255319.mp3 */; };
+		15DFE06F20972FD90088A41C /* 309769.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE04120972FD90088A41C /* 309769.mp3 */; };
+		15DFE07020972FD90088A41C /* 339744.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE04220972FD90088A41C /* 339744.mp3 */; };
+		15DFE07120972FD90088A41C /* Musics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE04320972FD90088A41C /* Musics.plist */; };
+		15DFE073209730E40088A41C /* BFMusicPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DFE072209730E40088A41C /* BFMusicPlayerController.swift */; };
+		15DFE0752097312F0088A41C /* BFMusicPlayerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15DFE0742097312F0088A41C /* BFMusicPlayerController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15DFDFFB20972E810088A41C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15DFDFDE20972E810088A41C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15DFDFE520972E810088A41C;
+			remoteInfo = QQMusic;
+		};
+		15DFE00620972E810088A41C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15DFDFDE20972E810088A41C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15DFDFE520972E810088A41C;
+			remoteInfo = QQMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1592DBE420983A5A00357C96 /* CALayer-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer-Extension.swift"; sourceTree = "<group>"; };
+		1592DBE620983E0000357C96 /* BFMusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFMusicPlayer.swift; sourceTree = "<group>"; };
+		1592DBE82098462300357C96 /* BFLyricModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFLyricModel.swift; sourceTree = "<group>"; };
+		1592DBEA209848AB00357C96 /* String+HandleLyric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HandleLyric.swift"; sourceTree = "<group>"; };
+		1592DBEC2098579800357C96 /* BFMusicLyricScrollerVw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFMusicLyricScrollerVw.swift; sourceTree = "<group>"; };
+		15A7BC912097FAA7001034DF /* BFSongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFSongModel.swift; sourceTree = "<group>"; };
+		15A7BC942097FB83001034DF /* BFSongsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BFSongsViewModel.swift; path = QQMusic/Classes/Model/BFSongsViewModel.swift; sourceTree = SOURCE_ROOT; };
+		15A7BC962097FE70001034DF /* BFSingleSongViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFSingleSongViewModel.swift; sourceTree = "<group>"; };
+		15DFDFE620972E810088A41C /* QQMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DFDFE920972E810088A41C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15DFDFF020972E810088A41C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15DFDFF320972E810088A41C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15DFDFF520972E810088A41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15DFDFFA20972E810088A41C /* QQMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DFDFFE20972E810088A41C /* QQMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQMusicTests.swift; sourceTree = "<group>"; };
+		15DFE00020972E810088A41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15DFE00520972E810088A41C /* QQMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DFE00920972E810088A41C /* QQMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQMusicUITests.swift; sourceTree = "<group>"; };
+		15DFE00B20972E810088A41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15DFE01920972FD90088A41C /* bb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bb@2x.jpg"; sourceTree = "<group>"; };
+		15DFE01A20972FD90088A41C /* bb_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bb_icon@2x.jpg"; sourceTree = "<group>"; };
+		15DFE01B20972FD90088A41C /* dzq@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dzq@2x.jpg"; sourceTree = "<group>"; };
+		15DFE01C20972FD90088A41C /* dzq_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dzq_icon@2x.jpg"; sourceTree = "<group>"; };
+		15DFE01D20972FD90088A41C /* eason@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eason@2x.jpg"; sourceTree = "<group>"; };
+		15DFE01E20972FD90088A41C /* eason_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eason_icon@2x.jpg"; sourceTree = "<group>"; };
+		15DFE01F20972FD90088A41C /* jay@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jay@2x.jpg"; sourceTree = "<group>"; };
+		15DFE02020972FD90088A41C /* jay_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jay_icon@2x.png"; sourceTree = "<group>"; };
+		15DFE02120972FD90088A41C /* jj@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jj@2x.jpg"; sourceTree = "<group>"; };
+		15DFE02220972FD90088A41C /* jj_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jj_icon@2x.png"; sourceTree = "<group>"; };
+		15DFE02320972FD90088A41C /* kzxd@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kzxd@2x.jpg"; sourceTree = "<group>"; };
+		15DFE02420972FD90088A41C /* kzxd_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kzxd_icon@2x.jpg"; sourceTree = "<group>"; };
+		15DFE02520972FD90088A41C /* lkq@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lkq@2x.jpg"; sourceTree = "<group>"; };
+		15DFE02620972FD90088A41C /* lkq_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lkq_icon@2x.jpg"; sourceTree = "<group>"; };
+		15DFE02720972FD90088A41C /* nanquan@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nanquan@2x.jpg"; sourceTree = "<group>"; };
+		15DFE02820972FD90088A41C /* nanquan_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nanquan_icon@2x.jpg"; sourceTree = "<group>"; };
+		15DFE02920972FD90088A41C /* wf@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wf@2x.jpg"; sourceTree = "<group>"; };
+		15DFE02A20972FD90088A41C /* wf_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wf_icon@2x.jpg"; sourceTree = "<group>"; };
+		15DFE02B20972FD90088A41C /* zxy@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zxy@2x.jpg"; sourceTree = "<group>"; };
+		15DFE02C20972FD90088A41C /* zxy_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zxy_icon@2x.jpg"; sourceTree = "<group>"; };
+		15DFE02E20972FD90088A41C /* 10405520.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 10405520.lrc; sourceTree = "<group>"; };
+		15DFE02F20972FD90088A41C /* 10736444.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 10736444.lrc; sourceTree = "<group>"; };
+		15DFE03020972FD90088A41C /* 120125029.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 120125029.lrc; sourceTree = "<group>"; };
+		15DFE03120972FD90088A41C /* 12309111.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 12309111.lrc; sourceTree = "<group>"; };
+		15DFE03220972FD90088A41C /* 14945107.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 14945107.lrc; sourceTree = "<group>"; };
+		15DFE03320972FD90088A41C /* 235319.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 235319.lrc; sourceTree = "<group>"; };
+		15DFE03420972FD90088A41C /* 255319.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 255319.lrc; sourceTree = "<group>"; };
+		15DFE03520972FD90088A41C /* 309769.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 309769.lrc; sourceTree = "<group>"; };
+		15DFE03620972FD90088A41C /* 339744.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 339744.lrc; sourceTree = "<group>"; };
+		15DFE03720972FD90088A41C /* 月半小夜曲.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "月半小夜曲.lrc"; sourceTree = "<group>"; };
+		15DFE03920972FD90088A41C /* 10405520.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10405520.mp3; sourceTree = "<group>"; };
+		15DFE03A20972FD90088A41C /* 10736444.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10736444.mp3; sourceTree = "<group>"; };
+		15DFE03B20972FD90088A41C /* 1201111234.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1201111234.mp3; sourceTree = "<group>"; };
+		15DFE03C20972FD90088A41C /* 120125029.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 120125029.mp3; sourceTree = "<group>"; };
+		15DFE03D20972FD90088A41C /* 12309111.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 12309111.mp3; sourceTree = "<group>"; };
+		15DFE03E20972FD90088A41C /* 14945107.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 14945107.mp3; sourceTree = "<group>"; };
+		15DFE03F20972FD90088A41C /* 235319.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 235319.mp3; sourceTree = "<group>"; };
+		15DFE04020972FD90088A41C /* 255319.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 255319.mp3; sourceTree = "<group>"; };
+		15DFE04120972FD90088A41C /* 309769.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 309769.mp3; sourceTree = "<group>"; };
+		15DFE04220972FD90088A41C /* 339744.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 339744.mp3; sourceTree = "<group>"; };
+		15DFE04320972FD90088A41C /* Musics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Musics.plist; sourceTree = "<group>"; };
+		15DFE072209730E40088A41C /* BFMusicPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFMusicPlayerController.swift; sourceTree = "<group>"; };
+		15DFE0742097312F0088A41C /* BFMusicPlayerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BFMusicPlayerController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15DFDFE320972E810088A41C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DFDFF720972E810088A41C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DFE00220972E810088A41C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15A7BC932097FB4E001034DF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				15A7BC962097FE70001034DF /* BFSingleSongViewModel.swift */,
+				15A7BC942097FB83001034DF /* BFSongsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		15DFDFDD20972E810088A41C = {
+			isa = PBXGroup;
+			children = (
+				15DFDFE820972E810088A41C /* QQMusic */,
+				15DFDFFD20972E810088A41C /* QQMusicTests */,
+				15DFE00820972E810088A41C /* QQMusicUITests */,
+				15DFDFE720972E810088A41C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15DFDFE720972E810088A41C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15DFDFE620972E810088A41C /* QQMusic.app */,
+				15DFDFFA20972E810088A41C /* QQMusicTests.xctest */,
+				15DFE00520972E810088A41C /* QQMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15DFDFE820972E810088A41C /* QQMusic */ = {
+			isa = PBXGroup;
+			children = (
+				15DFE04420972FD90088A41C /* Classes */,
+				15DFE04820972FD90088A41C /* Tools */,
+				15DFE01720972FD90088A41C /* Resources */,
+				15DFDFE920972E810088A41C /* AppDelegate.swift */,
+				15DFDFF020972E810088A41C /* Assets.xcassets */,
+				15DFDFF220972E810088A41C /* LaunchScreen.storyboard */,
+				15DFDFF520972E810088A41C /* Info.plist */,
+			);
+			path = QQMusic;
+			sourceTree = "<group>";
+		};
+		15DFDFFD20972E810088A41C /* QQMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				15DFDFFE20972E810088A41C /* QQMusicTests.swift */,
+				15DFE00020972E810088A41C /* Info.plist */,
+			);
+			path = QQMusicTests;
+			sourceTree = "<group>";
+		};
+		15DFE00820972E810088A41C /* QQMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15DFE00920972E810088A41C /* QQMusicUITests.swift */,
+				15DFE00B20972E810088A41C /* Info.plist */,
+			);
+			path = QQMusicUITests;
+			sourceTree = "<group>";
+		};
+		15DFE01720972FD90088A41C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				15DFE01820972FD90088A41C /* Images */,
+				15DFE02D20972FD90088A41C /* Lrcs */,
+				15DFE03820972FD90088A41C /* MP3s */,
+				15DFE04320972FD90088A41C /* Musics.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		15DFE01820972FD90088A41C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				15DFE01920972FD90088A41C /* bb@2x.jpg */,
+				15DFE01A20972FD90088A41C /* bb_icon@2x.jpg */,
+				15DFE01B20972FD90088A41C /* dzq@2x.jpg */,
+				15DFE01C20972FD90088A41C /* dzq_icon@2x.jpg */,
+				15DFE01D20972FD90088A41C /* eason@2x.jpg */,
+				15DFE01E20972FD90088A41C /* eason_icon@2x.jpg */,
+				15DFE01F20972FD90088A41C /* jay@2x.jpg */,
+				15DFE02020972FD90088A41C /* jay_icon@2x.png */,
+				15DFE02120972FD90088A41C /* jj@2x.jpg */,
+				15DFE02220972FD90088A41C /* jj_icon@2x.png */,
+				15DFE02320972FD90088A41C /* kzxd@2x.jpg */,
+				15DFE02420972FD90088A41C /* kzxd_icon@2x.jpg */,
+				15DFE02520972FD90088A41C /* lkq@2x.jpg */,
+				15DFE02620972FD90088A41C /* lkq_icon@2x.jpg */,
+				15DFE02720972FD90088A41C /* nanquan@2x.jpg */,
+				15DFE02820972FD90088A41C /* nanquan_icon@2x.jpg */,
+				15DFE02920972FD90088A41C /* wf@2x.jpg */,
+				15DFE02A20972FD90088A41C /* wf_icon@2x.jpg */,
+				15DFE02B20972FD90088A41C /* zxy@2x.jpg */,
+				15DFE02C20972FD90088A41C /* zxy_icon@2x.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		15DFE02D20972FD90088A41C /* Lrcs */ = {
+			isa = PBXGroup;
+			children = (
+				15DFE02E20972FD90088A41C /* 10405520.lrc */,
+				15DFE02F20972FD90088A41C /* 10736444.lrc */,
+				15DFE03020972FD90088A41C /* 120125029.lrc */,
+				15DFE03120972FD90088A41C /* 12309111.lrc */,
+				15DFE03220972FD90088A41C /* 14945107.lrc */,
+				15DFE03320972FD90088A41C /* 235319.lrc */,
+				15DFE03420972FD90088A41C /* 255319.lrc */,
+				15DFE03520972FD90088A41C /* 309769.lrc */,
+				15DFE03620972FD90088A41C /* 339744.lrc */,
+				15DFE03720972FD90088A41C /* 月半小夜曲.lrc */,
+			);
+			path = Lrcs;
+			sourceTree = "<group>";
+		};
+		15DFE03820972FD90088A41C /* MP3s */ = {
+			isa = PBXGroup;
+			children = (
+				15DFE03920972FD90088A41C /* 10405520.mp3 */,
+				15DFE03A20972FD90088A41C /* 10736444.mp3 */,
+				15DFE03B20972FD90088A41C /* 1201111234.mp3 */,
+				15DFE03C20972FD90088A41C /* 120125029.mp3 */,
+				15DFE03D20972FD90088A41C /* 12309111.mp3 */,
+				15DFE03E20972FD90088A41C /* 14945107.mp3 */,
+				15DFE03F20972FD90088A41C /* 235319.mp3 */,
+				15DFE04020972FD90088A41C /* 255319.mp3 */,
+				15DFE04120972FD90088A41C /* 309769.mp3 */,
+				15DFE04220972FD90088A41C /* 339744.mp3 */,
+			);
+			path = MP3s;
+			sourceTree = "<group>";
+		};
+		15DFE04420972FD90088A41C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				15DFE04620972FD90088A41C /* Model */,
+				15A7BC932097FB4E001034DF /* ViewModel */,
+				15DFE04720972FD90088A41C /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		15DFE04620972FD90088A41C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15A7BC912097FAA7001034DF /* BFSongModel.swift */,
+				1592DBE82098462300357C96 /* BFLyricModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15DFE04720972FD90088A41C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15DFE072209730E40088A41C /* BFMusicPlayerController.swift */,
+				15DFE0742097312F0088A41C /* BFMusicPlayerController.xib */,
+				1592DBEC2098579800357C96 /* BFMusicLyricScrollerVw.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15DFE04820972FD90088A41C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1592DBE420983A5A00357C96 /* CALayer-Extension.swift */,
+				1592DBEA209848AB00357C96 /* String+HandleLyric.swift */,
+				1592DBE620983E0000357C96 /* BFMusicPlayer.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15DFDFE520972E810088A41C /* QQMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15DFE00E20972E810088A41C /* Build configuration list for PBXNativeTarget "QQMusic" */;
+			buildPhases = (
+				15DFDFE220972E810088A41C /* Sources */,
+				15DFDFE320972E810088A41C /* Frameworks */,
+				15DFDFE420972E810088A41C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQMusic;
+			productName = QQMusic;
+			productReference = 15DFDFE620972E810088A41C /* QQMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15DFDFF920972E810088A41C /* QQMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15DFE01120972E810088A41C /* Build configuration list for PBXNativeTarget "QQMusicTests" */;
+			buildPhases = (
+				15DFDFF620972E810088A41C /* Sources */,
+				15DFDFF720972E810088A41C /* Frameworks */,
+				15DFDFF820972E810088A41C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15DFDFFC20972E810088A41C /* PBXTargetDependency */,
+			);
+			name = QQMusicTests;
+			productName = QQMusicTests;
+			productReference = 15DFDFFA20972E810088A41C /* QQMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15DFE00420972E810088A41C /* QQMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15DFE01420972E810088A41C /* Build configuration list for PBXNativeTarget "QQMusicUITests" */;
+			buildPhases = (
+				15DFE00120972E810088A41C /* Sources */,
+				15DFE00220972E810088A41C /* Frameworks */,
+				15DFE00320972E810088A41C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15DFE00720972E810088A41C /* PBXTargetDependency */,
+			);
+			name = QQMusicUITests;
+			productName = QQMusicUITests;
+			productReference = 15DFE00520972E810088A41C /* QQMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15DFDFDE20972E810088A41C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BF;
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = BF;
+				TargetAttributes = {
+					15DFDFE520972E810088A41C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					15DFDFF920972E810088A41C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 15DFDFE520972E810088A41C;
+					};
+					15DFE00420972E810088A41C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 15DFDFE520972E810088A41C;
+					};
+				};
+			};
+			buildConfigurationList = 15DFDFE120972E810088A41C /* Build configuration list for PBXProject "QQMusic" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15DFDFDD20972E810088A41C;
+			productRefGroup = 15DFDFE720972E810088A41C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15DFDFE520972E810088A41C /* QQMusic */,
+				15DFDFF920972E810088A41C /* QQMusicTests */,
+				15DFE00420972E810088A41C /* QQMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15DFDFE420972E810088A41C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DFE06320972FD90088A41C /* 255319.lrc in Resources */,
+				15DFE05E20972FD90088A41C /* 10736444.lrc in Resources */,
+				15DFE0752097312F0088A41C /* BFMusicPlayerController.xib in Resources */,
+				15DFE06B20972FD90088A41C /* 12309111.mp3 in Resources */,
+				15DFE05820972FD90088A41C /* nanquan_icon@2x.jpg in Resources */,
+				15DFE05220972FD90088A41C /* jj_icon@2x.png in Resources */,
+				15DFE06920972FD90088A41C /* 1201111234.mp3 in Resources */,
+				15DFE07120972FD90088A41C /* Musics.plist in Resources */,
+				15DFE06820972FD90088A41C /* 10736444.mp3 in Resources */,
+				15DFE05020972FD90088A41C /* jay_icon@2x.png in Resources */,
+				15DFE06C20972FD90088A41C /* 14945107.mp3 in Resources */,
+				15DFE04A20972FD90088A41C /* bb_icon@2x.jpg in Resources */,
+				15DFE05D20972FD90088A41C /* 10405520.lrc in Resources */,
+				15DFE05420972FD90088A41C /* kzxd_icon@2x.jpg in Resources */,
+				15DFE04F20972FD90088A41C /* jay@2x.jpg in Resources */,
+				15DFDFF420972E810088A41C /* LaunchScreen.storyboard in Resources */,
+				15DFE05C20972FD90088A41C /* zxy_icon@2x.jpg in Resources */,
+				15DFE06E20972FD90088A41C /* 255319.mp3 in Resources */,
+				15DFE05920972FD90088A41C /* wf@2x.jpg in Resources */,
+				15DFE04B20972FD90088A41C /* dzq@2x.jpg in Resources */,
+				15DFE05A20972FD90088A41C /* wf_icon@2x.jpg in Resources */,
+				15DFE04E20972FD90088A41C /* eason_icon@2x.jpg in Resources */,
+				15DFE06A20972FD90088A41C /* 120125029.mp3 in Resources */,
+				15DFE06720972FD90088A41C /* 10405520.mp3 in Resources */,
+				15DFE05320972FD90088A41C /* kzxd@2x.jpg in Resources */,
+				15DFE05620972FD90088A41C /* lkq_icon@2x.jpg in Resources */,
+				15DFE06D20972FD90088A41C /* 235319.mp3 in Resources */,
+				15DFE06020972FD90088A41C /* 12309111.lrc in Resources */,
+				15DFE05120972FD90088A41C /* jj@2x.jpg in Resources */,
+				15DFE05B20972FD90088A41C /* zxy@2x.jpg in Resources */,
+				15DFE04D20972FD90088A41C /* eason@2x.jpg in Resources */,
+				15DFE05520972FD90088A41C /* lkq@2x.jpg in Resources */,
+				15DFE06420972FD90088A41C /* 309769.lrc in Resources */,
+				15DFE06520972FD90088A41C /* 339744.lrc in Resources */,
+				15DFE06620972FD90088A41C /* 月半小夜曲.lrc in Resources */,
+				15DFE04C20972FD90088A41C /* dzq_icon@2x.jpg in Resources */,
+				15DFE06120972FD90088A41C /* 14945107.lrc in Resources */,
+				15DFDFF120972E810088A41C /* Assets.xcassets in Resources */,
+				15DFE06F20972FD90088A41C /* 309769.mp3 in Resources */,
+				15DFE05F20972FD90088A41C /* 120125029.lrc in Resources */,
+				15DFE04920972FD90088A41C /* bb@2x.jpg in Resources */,
+				15DFE06220972FD90088A41C /* 235319.lrc in Resources */,
+				15DFE05720972FD90088A41C /* nanquan@2x.jpg in Resources */,
+				15DFE07020972FD90088A41C /* 339744.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DFDFF820972E810088A41C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DFE00320972E810088A41C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15DFDFE220972E810088A41C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A7BC922097FAA7001034DF /* BFSongModel.swift in Sources */,
+				1592DBEB209848AB00357C96 /* String+HandleLyric.swift in Sources */,
+				1592DBE92098462300357C96 /* BFLyricModel.swift in Sources */,
+				15A7BC972097FE70001034DF /* BFSingleSongViewModel.swift in Sources */,
+				1592DBED2098579800357C96 /* BFMusicLyricScrollerVw.swift in Sources */,
+				1592DBE720983E0000357C96 /* BFMusicPlayer.swift in Sources */,
+				15DFDFEA20972E810088A41C /* AppDelegate.swift in Sources */,
+				1592DBE520983A5A00357C96 /* CALayer-Extension.swift in Sources */,
+				15DFE073209730E40088A41C /* BFMusicPlayerController.swift in Sources */,
+				15A7BC952097FB83001034DF /* BFSongsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DFDFF620972E810088A41C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DFDFFF20972E810088A41C /* QQMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DFE00120972E810088A41C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DFE00A20972E810088A41C /* QQMusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15DFDFFC20972E810088A41C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15DFDFE520972E810088A41C /* QQMusic */;
+			targetProxy = 15DFDFFB20972E810088A41C /* PBXContainerItemProxy */;
+		};
+		15DFE00720972E810088A41C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15DFDFE520972E810088A41C /* QQMusic */;
+			targetProxy = 15DFE00620972E810088A41C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15DFDFF220972E810088A41C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15DFDFF320972E810088A41C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15DFE00C20972E810088A41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15DFE00D20972E810088A41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15DFE00F20972E810088A41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BF.QQMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15DFE01020972E810088A41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BF.QQMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15DFE01220972E810088A41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BF.QQMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQMusic.app/QQMusic";
+			};
+			name = Debug;
+		};
+		15DFE01320972E810088A41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BF.QQMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQMusic.app/QQMusic";
+			};
+			name = Release;
+		};
+		15DFE01520972E810088A41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BF.QQMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QQMusic;
+			};
+			name = Debug;
+		};
+		15DFE01620972E810088A41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BF.QQMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QQMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15DFDFE120972E810088A41C /* Build configuration list for PBXProject "QQMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DFE00C20972E810088A41C /* Debug */,
+				15DFE00D20972E810088A41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15DFE00E20972E810088A41C /* Build configuration list for PBXNativeTarget "QQMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DFE00F20972E810088A41C /* Debug */,
+				15DFE01020972E810088A41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15DFE01120972E810088A41C /* Build configuration list for PBXNativeTarget "QQMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DFE01220972E810088A41C /* Debug */,
+				15DFE01320972E810088A41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15DFE01420972E810088A41C /* Build configuration list for PBXNativeTarget "QQMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DFE01520972E810088A41C /* Debug */,
+				15DFE01620972E810088A41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15DFDFDE20972E810088A41C /* Project object */;
+}
